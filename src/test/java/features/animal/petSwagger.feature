@@ -5,7 +5,7 @@
   Background:
     * def animal = { id: 0, category: {id: 1, name: aass}, name: 'queen', photoUrls: [ 'striiin' ], tags: [ {id: 2, name: zxc} ], status: 'available'   }
 
-    Scenario: Crate
+    Scenario: Create
       Given url 'https://petstore.swagger.io/v2'
       When path 'pet'
       And request animal
